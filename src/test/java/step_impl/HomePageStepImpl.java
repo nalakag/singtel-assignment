@@ -33,4 +33,9 @@ public class HomePageStepImpl {
     public void checkItemCount(String itemCount) {
         Assert.assertEquals(itemCount, homePage.getRemainingItemsCount());
     }
+
+    @Step("Click on the Completed button")
+    public void clickOnCompletedButton() {
+        homePage.clickOnCompletedButton();
+    }
 }

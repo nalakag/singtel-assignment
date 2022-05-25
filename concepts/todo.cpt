@@ -1,0 +1,8 @@
+Created by nalaka on 5/25/2022
+
+This is a concept file with following syntax for each concept.
+
+# Add a new task as <taskName>
+
+* Input text on ToDo text box <taskName>
+* Press Enter key

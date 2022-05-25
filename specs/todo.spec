@@ -3,14 +3,19 @@ Created by nalaka on 5/24/2022
 
 This is an executable specification file which follows markdown syntax.
 Every heading in this file denotes a scenario. Every bulleted point denotes a step.
+
+table: src/test/resources/todo_testdata.csv
+
+* Add a new task as <taskName>
      
 ## User can add a new task
-* Input text on ToDo text box "Task 1"
-* Press Enter key
-* "Task 1" task is visible
+* <taskName> task is visible
 
 ## User can complete a task
-* Input text on ToDo text box "Task 1"
-* Press Enter key
-* Select a task "Task 1"
+* Select a task <taskName>
 * Remaining items count is "0"
+
+## User can check the completed task
+* Select a task <taskName>
+* Click on the Completed button
+* <taskName> task is visible

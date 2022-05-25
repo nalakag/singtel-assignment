@@ -38,4 +38,8 @@ public class HomePage {
     public String getRemainingItemsCount() {
         return driver.findElement(By.xpath("//span[@class='todo-count']//strong")).getText();
     }
+
+    public void clickOnCompletedButton() {
+        driver.findElement(By.xpath("//a[normalize-space()='Completed']")).click();
+    }
 }
