@@ -1,4 +1,4 @@
-This is an test automation assignment for singtel in Singapre. As per the instruction given i have used another BDD test automation framework called Gauge. This project tests some of the functionalities of the ToDo demo app.
+This is an test automation assignment for singtel in Singapre. As per the instruction given i have used another BDD test automation framework called [[Gauge](https://docs.gauge.org/getting_started/installing-gauge.html?os=linux&language=javascript&ide=vscode)]. This project tests some of the functionalities of the ToDo demo app.
 
 **Pre Requisites**
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -64,3 +64,12 @@ If the installation is success, it will output like this:
 **Browser	Version**
 	Chrome	68.0.3440.106 or latest (Official Build) (64-bit)
 	Tested on Windows 10 Core i7 Machine.
+	
+
+******How to run the project******
+1. Get a clone from the original repo to your local machine.
+2. Open a project using [https://www.jetbrains.com/idea/]
+3. Navigate to following path and run the project
+	* singtel-assignment --> specs --> toco.spec (double click on the todo.spec file and open)
+4. Open a report folder and validate the results. (you can use chrome browser to open report)
+
