@@ -38,4 +38,15 @@ public class HomePageStepImpl {
     public void clickOnCompletedButton() {
         homePage.clickOnCompletedButton();
     }
+
+    @Step("Click on the Active button")
+    public void clickOnActiveButton() {
+        homePage.clickOnActiveButton();
+
+    }
+    @Step("Click on the Clear Completed Icon")
+    public void clickOnClearCompletedIcon() {
+        homePage.clickOnClearCompletedIcon();
+
+    }
 }

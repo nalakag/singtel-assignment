@@ -2,6 +2,8 @@ package page;
 
 import org.openqa.selenium.*;
 
+import java.security.*;
+
 public class HomePage {
 
     private final By taskNameTextBox = By.xpath("//input[@placeholder='What needs to be done?']");
@@ -41,5 +43,15 @@ public class HomePage {
 
     public void clickOnCompletedButton() {
         driver.findElement(By.xpath("//a[normalize-space()='Completed']")).click();
+    }
+
+    public void clickOnActiveButton()
+    {
+        driver.findElement(By.xpath("//a[normalize-space()='Active']")).click();
+    }
+
+    public void clickOnClearCompletedIcon()
+    {
+        driver.findElement(By.xpath("//button[normalize-space()='Clear completed']")).click();
     }
 }

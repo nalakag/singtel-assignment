@@ -19,3 +19,13 @@ table: src/test/resources/todo_testdata.csv
 * Select a task <taskName>
 * Click on the Completed button
 * <taskName> task is visible
+
+## User can check the Active task
+* Click on the Active button
+* <taskName> task is visible
+
+## User can Clrea the Completed task
+* Select a task <taskName>
+* Click on the Completed button
+* <taskName> task is visible
+* Click on the Clear Completed Icon
